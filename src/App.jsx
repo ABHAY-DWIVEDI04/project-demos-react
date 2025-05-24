@@ -1,5 +1,6 @@
 import React from "react";
-import ToggleBackgroundColor from "./Components/ToggleBackgroundColor";
+import HiddenSearchBar from "./Components/HiddenSearchBar";
+// import ToggleBackgroundColor from "./Components/ToggleBackgroundColor";
 // import Calculator from "./Components/Calculator";
 // import Counter from "./Components/Counter";
 // import Todo from "./Components/Todo";
@@ -14,7 +15,8 @@ const App = () => {
       {/* <MealsApi /> */}
       {/* <MealsApi /> */}
       {/* <Calculator /> */}
-      <ToggleBackgroundColor />
+      {/* <ToggleBackgroundColor /> */}
+      <HiddenSearchBar />
     </div>
   );
 };
