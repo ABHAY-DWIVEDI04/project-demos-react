@@ -1,5 +1,6 @@
 import React from "react";
-import Calculator from "./Components/Calculator";
+import ToggleBackgroundColor from "./Components/ToggleBackgroundColor";
+// import Calculator from "./Components/Calculator";
 // import Counter from "./Components/Counter";
 // import Todo from "./Components/Todo";
 // import MealsApi from "./Components/MealsApi";
@@ -12,7 +13,8 @@ const App = () => {
       {/* <Todo /> */}
       {/* <MealsApi /> */}
       {/* <MealsApi /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      <ToggleBackgroundColor />
     </div>
   );
 };
