@@ -1,5 +1,7 @@
 import React from "react";
-import Testimonials from "./Components/Testimonials";
+import { accordionData } from "./Components/utils/contents";
+import Accordian from "./Components/Accordian";
+// import Testimonials from "./Components/Testimonials";
 // import HiddenSearchBar from "./Components/HiddenSearchBar";
 // import ToggleBackgroundColor from "./Components/ToggleBackgroundColor";
 // import Calculator from "./Components/Calculator";
@@ -18,7 +20,12 @@ const App = () => {
       {/* <Calculator /> */}
       {/* <ToggleBackgroundColor /> */}
       {/* <HiddenSearchBar /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
+      <div className="accordion">
+        {accordionData.map(({ title, content }, index) => (
+          <Accordian key={index} title={title} content={content} />
+        ))}
+      </div>
     </div>
   );
 };
