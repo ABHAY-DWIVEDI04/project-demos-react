@@ -1,6 +1,7 @@
 import React from "react";
-import { accordionData } from "./Components/utils/contents";
-import Accordian from "./Components/Accordian";
+import Form from "./Components/Form";
+// import { accordionData } from "./Components/utils/contents";
+// import Accordian from "./Components/Accordian";
 // import Testimonials from "./Components/Testimonials";
 // import HiddenSearchBar from "./Components/HiddenSearchBar";
 // import ToggleBackgroundColor from "./Components/ToggleBackgroundColor";
@@ -21,11 +22,12 @@ const App = () => {
       {/* <ToggleBackgroundColor /> */}
       {/* <HiddenSearchBar /> */}
       {/* <Testimonials /> */}
-      <div className="accordion">
+      {/* <div className="accordion">
         {accordionData.map(({ title, content }, index) => (
           <Accordian key={index} title={title} content={content} />
         ))}
-      </div>
+      </div> */}
+      <Form />
     </div>
   );
 };
